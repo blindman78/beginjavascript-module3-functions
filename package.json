@@ -4,9 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "install": "pnpm install",
     "dev": "nodemon script.js",
-    "start": "node script.js",
+    "start": "bun run script.js",
     "beginjavascript": "echo 'hello beginjavascript, je suis un script bash !'"
   },
   "devDependencies": {

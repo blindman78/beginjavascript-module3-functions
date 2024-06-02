@@ -1,1 +1,3 @@
 node_modules
+.github/dependabot.yml
+.devcontainer/devcontainer.json

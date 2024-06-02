@@ -2,24 +2,21 @@
 
 Dans ce premier projet, on va juste :
 
-- Télécharger les dépendances nécessaires (NodeJS, NPM)
+- Télécharger les dépendances nécessaires (Bun)
 - Clone le projet en utilisant GIT
 - Télécharger VSCode
 - Setup VSCode
 
 ## Télécharger les dépendances
 
-- [git](https://git-scm.com/downloads) - v2 ou plus
-- [node](https://nodejs.org/en/) - v12 ou plus
-- [npm](https://nodejs.org/en/) - v6 ou plus
+- [Bun](https://bun.sh/) - 1.1 ou plus
 - [VSCode](https://code.visualstudio.com/download) - 1.78.2 ou plus
 
 Vérifie que tout est ok : 
 
 ```bash
 git -v
-node -v
-npm -v
+bun -v
 ```
 
 ## Cloner le projet
@@ -31,7 +28,7 @@ git clone https://github.com/Melvynx/beginjavascript-module3-functions
 
 cd beginjavascript-module3-functions
 
-npm install
+bun install
 ```
 
 ## Setup VSCode
@@ -49,5 +46,5 @@ Voilà !
 Lancer les commandes pour exécuté notre fichier `script.ts` :
 
 ```bash
-npm run start
+bun start
 ```
